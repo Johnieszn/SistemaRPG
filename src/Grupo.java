@@ -16,7 +16,8 @@ public class Grupo {
     
     
     public void apresentar() {
-        System.out.println("Grupo" + idgr);
+        System.out.println("");
+        System.out.println("Grupo " + idgr);
         System.out.println(nome);
         System.out.println("Membros: " + membros.size());
         
@@ -29,9 +30,7 @@ public class Grupo {
     }
     
     public void apresentarResumo() {
-        System.out.println("ID: " + idgr);
-        System.out.println("Nome: " + nome);
-        System.out.println("Membros: " + membros.size());
+        System.out.println("Grupo " + idgr + "| " + nome + " | " + membros.size() + " membros");
         System.out.println("---------------------------");
     }
 
